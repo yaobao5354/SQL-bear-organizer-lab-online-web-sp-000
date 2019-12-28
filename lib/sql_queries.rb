@@ -20,7 +20,7 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  "SELECT name, WHERE color == 'DARK BROWN';"
+  "SELECT name, color WHERE color == 'DARK BROWN';"
 end
 
 def counts_number_of_bears_with_goofy_temperaments
